@@ -17,7 +17,7 @@ namespace WeatherApp.Controllers
 
         public async Task<IActionResult> Index()
         {
-            string apiKey = "your_api_key";
+            string apiKey = "c23c89213f0f6da1f15b669b334544b6";
             string city = "Toronto";
             string url = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric";
 
